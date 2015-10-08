@@ -1,0 +1,13 @@
+{
+  "name": "angular",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.13.1",
+    "mongoose": "4.1.10",
+    "jade": "*"
+  }
+}

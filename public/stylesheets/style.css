@@ -1,0 +1,6 @@
+ul.line li.done {
+  text-decoration : line-through;
+}
+ul.hide li.done {
+  display: none;
+}

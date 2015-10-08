@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+<button ng-click="save()">保存</button>
+<button ng-click="load()">呼び出し</button>
+<div add-todo todos="todos"></div>
+
+<label><input type="radio" ng-model="doneType" value="line">取り消し線</label>
+<label><input type="radio" ng-model="doneType" value="hide">非表示</label>
+
+<ul ng-class="doneType">
+  <li ng-repeat="todo in todos" ng-class="{done : todo.done }">
+    <label><input type="checkbox" ng-model="todo.done">{{todo.text}}</label>
+  </li>
+</ul>
