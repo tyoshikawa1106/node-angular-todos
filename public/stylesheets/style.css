@@ -1,6 +1,15 @@
-ul.line li.done {
+html{
+  height: 100%;
+}
+
+body {
+  background-color: rgb(244, 246, 249) !important;
+  min-height: 100%;
+}
+
+ul.line li.done span {
   text-decoration : line-through;
 }
-ul.hide li.done {
+ul.hide li.done span {
   display: none;
 }

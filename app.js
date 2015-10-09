@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // development only
 if ('development' == app.get('env')) {
-  /* Node v4.xで使用不可
+  /* Node v4.xで使用不可っぽい
   app.use(express.errorHandler());
   */
 }
